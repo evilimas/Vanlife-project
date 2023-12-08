@@ -10,7 +10,7 @@ body {
   font-family: 'Inter', sans-serif;
 }
 body {
-  max-width: 900px;
+  max-width: 850px;
   margin: 0 auto;
 }
 
@@ -303,8 +303,8 @@ i[class*='van-type-'] {
   text-decoration: none;
 }
 
-.van-detail-container .back-button:visited {
-}
+/* .van-detail-container .back-button:visited {
+} */
 
 .van-detail-container .back-button span {
   text-decoration: underline;
