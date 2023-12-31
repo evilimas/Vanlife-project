@@ -122,11 +122,10 @@ createServer({
         return new Response(
           401,
           {},
-          { message: 'No user with those credentials found!' }
+          { message: 'No user with those credentials has been found!' }
         );
       }
 
-      // At the very least, don't send the password back to the client 😅
       foundUser.password = undefined;
       return {
         user: foundUser,
