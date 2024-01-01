@@ -120,6 +120,7 @@ footer {
 }
 
 /*** HOME PAGE ***/
+
 .home-container {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)),
     url('./assets/images/home-hero.png') no-repeat center center;
@@ -163,6 +164,7 @@ footer {
 }
 
 /*** ABOUT PAGE ***/
+
 .about-hero-image {
   max-width: 100%;
 }
@@ -302,9 +304,6 @@ i[class*='van-type-'] {
   color: black;
   text-decoration: none;
 }
-
-/* .van-detail-container .back-button:visited {
-} */
 
 .van-detail-container .back-button span {
   text-decoration: underline;
